@@ -34,7 +34,7 @@ timezone America/Los_Angeles
 
 install
 
-part / --bytes-per-inode=4096 --fstype="ext4" --grow --size=1
+part / --fstype="ext4" --grow --size=1
 
 part swap --recommended
 
