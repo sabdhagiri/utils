@@ -15,6 +15,7 @@ firstboot --disable
 keyboard us
 
 network --device eth0 --onboot yes --bootproto dhcp --noipv6
+network --device eth1 --onboot yes --bootproto dhcp --noipv6
 
 lang en_US
 
